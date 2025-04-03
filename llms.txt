@@ -1,0 +1,39 @@
+# Doctern - AI Document OCR and Table Extraction
+
+> Turns scanned documents into structured data, with table extraction that survives real-world scans.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/doctern-document-ocr-ai
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Scanned documents hold data nobody can query. Generic OCR returns a wall of text and loses the table structure, which is usually the part that actually mattered.
+
+An OCR pipeline that preserves layout, with a dedicated table-extraction stage so rows and columns survive as structure rather than being flattened into text. A web interface handles upload and review, because extraction from imperfect scans needs human confirmation.
+
+## Stack
+Backend: Python, OCR: Layout-aware recognition, Frontend: Web upload and review interface, Output: Structured exportable data
+
+## Capabilities
+- Layout-preserving OCR
+- Table structure extraction
+- Browser-based upload and review
+- Structured export
+
+## Outcomes
+- Scanned tables recovered as data rather than flattened text
+- Human review built into the flow instead of assumed-perfect extraction
+
+## FAQ
+Q: How is this different from ordinary OCR?
+A: Ordinary OCR returns text and loses table structure. This pipeline recovers rows and columns as structure.
+
+Q: What document types does it handle?
+A: Scanned documents and PDFs where the useful content is tabular.
+
+Q: Is extraction fully automatic?
+A: Extraction is automatic; a review step lets a human confirm before export, which real-world scan quality requires.
+
+Q: Is the source available?
+A: Private repository.
